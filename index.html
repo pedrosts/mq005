@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query Menu responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+               
+        </menu>
+    </header>
+                
+
+    <main>
+        <article>
+            <h2>Tesde de media queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur tempore excepturi minima eaque vel nemo cumque quibusdam temporibus praesentium, dolorem quam, eos magni tenetur. Praesentium recusandae hic totam debitis deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corrupti? Voluptatem qui omnis itaque illo ea est quidem quas laboriosam. Consectetur perferendis explicabo cum quod delectus nostrum unde optio numquam.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur tempore excepturi minima eaque vel nemo cumque quibusdam temporibus praesentium, dolorem quam, eos magni tenetur. Praesentium recusandae hic totam debitis deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corrupti? Voluptatem qui omnis itaque illo ea est quidem quas laboriosam. Consectetur perferendis explicabo cum quod delectus nostrum unde optio numquam.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur tempore excepturi minima eaque vel nemo cumque quibusdam temporibus praesentium, dolorem quam, eos magni tenetur. Praesentium recusandae hic totam debitis deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corrupti? Voluptatem qui omnis itaque illo ea est quidem quas laboriosam. Consectetur perferendis explicabo cum quod delectus nostrum unde optio numquam.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }  else {
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>
